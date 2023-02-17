@@ -31,7 +31,7 @@ export default function ManagePage() {
             <div className="location-label">Location: {participant.location}</div>
             <br></br>
             <button className="delete-button" onClick={() => handleDeleteParticipant(participant._id)}>
-              Delete Registration
+              Delete
             </button>
           </div>
         )
