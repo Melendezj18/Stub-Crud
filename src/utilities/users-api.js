@@ -60,6 +60,7 @@ if (token) {
 
     const res = await fetch(url, options)
     if (res.ok) {
+		console.log(res)
         return res.json()
     } else {
         throw new Error('Bad Request')
