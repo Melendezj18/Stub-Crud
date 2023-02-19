@@ -31,7 +31,7 @@ export default function EventPage() {
 			</div>
 		))
 	}
-
+ 
 	return (
 		<div className="event-page">
 			<h2>Event Page</h2>
