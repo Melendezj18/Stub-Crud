@@ -46,11 +46,11 @@ export default function ManagePage() {
     }
 
     function handleInputChange(event, id) {
-        const updatedParticipants = participants.participants.map(p => {
-            if (p._id === id) {
-                return { ...p, [event.target.name]: event.target.value }
+        const updatedParticipants = participants.participants.map(participant => {
+            if (participant._id === id) {
+                return { ...participant, [event.target.name]: event.target.value }
             }
-            return p
+            return participant
         })
         setParticipants({ participants: updatedParticipants })
     }
