@@ -14,7 +14,12 @@ const headers = {
 // async function seed() {
 //         await Participant.deleteMany({})
 
-//   try {
+
+async function seed() {
+        await Participant.deleteMany({})
+
+  try {
+
   
 //     // Fetch the attendee data from the Eventbrite API
 //     const response = await fetch(url, { headers });

@@ -3,11 +3,13 @@
 
 StubCrud is a web app designed for users to register for events, as well as manage their registrations.  
 
-<p align="center">
-| <img width="250px" height="250px" src='readme_img/signin.png'> |
-<img width="250px" height="250px" src='readme_img/eventpage.png'> |
+<div align="center">
+<img width="250px" height="250px" src='readme_img/signin.png'> |
+<img width="250px" height="250px" src='readme_img/eventpage.png'> 
+
 <img width="250px" height="250px" src='readme_img/register.png'> |
-</p>
+<img width="250px" height="250px" src='readme_img/update.png'>  |
+</div>
 
 ---
 ## The Team:
@@ -25,7 +27,7 @@ StubCrud is a web app designed for users to register for events, as well as mana
 |                      | - UI Design           |
 |                      |                       |
 | **- Pat Goral:**     | - Back End Developer  |
-|                      | - Documenter          |
+|                      | - Deployment Manager  |
 
 
 ## Technologies Used
@@ -50,7 +52,7 @@ We utilized a third party API from Eventbrite.com.  We used real participant dat
 
 ### View the deployed page here:
 
-[View StubCrud](https://trello.com/b/ZFkGbE5Q/project-3)
+[View StubCrud](https://stubcrudclient.onrender.com/)
 
 <table>
 <tr>
